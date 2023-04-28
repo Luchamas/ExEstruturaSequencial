@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="lista1.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="divNro1">
+        Insira o valor desejado <input type="number" id="temp" />
+      </div>
+      <div id="divEscolha">
+        Escolha o tipo de temperatura a ser convertida
+        <select id="escolha">
+          <option value="1">Celsius</option>
+          <option value="2">Fahrenheit</option>
+          <option value="3">Kelvin</option>
+        </select>
+      </div>
+      <div id="divButton">
+        <button onclick="exe18()">Calcular</button>
+      </div>
+      <div id="resultado"></div>
+    </div>
+  </body>
+</html>
